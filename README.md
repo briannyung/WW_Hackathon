@@ -1,5 +1,5 @@
 To run:
 
-npx shadcn@latest init
-npm install
-npm run dev
+1. npx shadcn@latest init
+2. npm install
+3. npm run dev
