@@ -21,7 +21,7 @@ export default function HomePage() {
             <Link href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">
               How It Works
             </Link>
-            <Link href="#browse" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/browse" className="text-muted-foreground hover:text-foreground transition-colors">
               Browse Courses
             </Link>
           </nav>

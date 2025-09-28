@@ -261,7 +261,7 @@ export default function BrowsePage() {
         {/* Course Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {sortedCourses.map((course) => (
-            <Card key={course.id} className="hover:shadow-lg transition-shadow cursor-pointer group">
+            <Card key={course.id} className="course-card cursor-pointer group">
               <CardHeader>
                 <div className="flex items-start justify-between mb-2">
                   <Badge variant="secondary">{course.subject}</Badge>
@@ -270,7 +270,7 @@ export default function BrowsePage() {
                     {course.rating}
                   </div>
                 </div>
-                <CardTitle className="text-lg group-hover:text-primary transition-colors">{course.title}</CardTitle>
+                <CardTitle className="text-lg group-hover:text-primary">{course.title}</CardTitle>
                 <CardDescription className="line-clamp-2">{course.description}</CardDescription>
               </CardHeader>
               <CardContent>
